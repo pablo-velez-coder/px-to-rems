@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import VoiceRecognitionApp from './components/VoiceRecognitionApp';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <VoiceRecognitionApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
